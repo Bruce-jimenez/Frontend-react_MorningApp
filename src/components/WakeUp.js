@@ -25,7 +25,7 @@ return (
        
 <br />
 
-    <button onClick={() => {nav(`/${id}/edit`)}}>Edit This Meal</button>
+    <button onClick={() => {nav(`/${id}/edit`)}}>Edit This Log</button>
     
     <button onClick={deleteTheDayBreak}>Delete This Wake Up Log</button>
 <br />

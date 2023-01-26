@@ -5,8 +5,8 @@ function CreateFoods() {
     const nav = useNavigate()
 
     const createTheFoods = (e) => {
-        const food = {main: e.target.main.value, side: e.target.side.value, drink: e.target.drink.value}
-        createMeal(food)
+        const Food = {main: e.target.main.value, side: e.target.side.value, drink: e.target.drink.value}
+        createMeal(Food)
         nav('/')
     }
 

@@ -29,8 +29,10 @@ function App() {
           <Routes>
 
   <Route path='/' element={groupDisplay()}/>
-  <Route path='/:id' element={<WakeUp />}/>
-  <Route path='/:id/edit' element={<EditWakeUp />}/>
+ {/* These routes shouldve work tried parent components didnt work, tried switches didnt work
+ I dont know however one does fully work and i am leaving it alone so i could present it. */}
+  {/* <Route path='/:id' element={<WakeUp />}/>
+  <Route path='/:id/edit' element={<EditWakeUp />}/> */}
   <Route path='/:id' element={<Food />}/>
   <Route path='/:id/edit' element={<EditFood  />}/>
       </Routes>
